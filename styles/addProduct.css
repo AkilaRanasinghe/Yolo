@@ -1,0 +1,62 @@
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.frmcnr {
+  float: left;
+  width: 28%;
+  padding: 25px 3px 25px 8px;
+}
+
+.frmmdl {
+  border-radius:5%;
+  background-color:#76c4e8;
+  float: left;
+  width: 40%;
+  padding: 25px 3px 25px 8px;
+}
+
+.spce {
+  float: left;
+  width: 4%;
+  padding: 10px 3px 10px 8px;	
+}
+
+.lbl {
+  float: left;
+  width: 20%;
+  padding: 10px 25px 10px 8px;
+}
+
+.inpt { 
+  float: left;
+  width: 50%;
+  padding: 10px 3px 10px 8px;
+}
+
+.iput {
+  border-radius:5%;
+  width: 100%;
+}
+
+.subt:disabled {
+  cursor: default;	
+  color:black;
+  padding:5px 20px;
+  border-radius:5%;
+  border: 2px solid Blue;
+  outline: 0;	
+  background-color: #b3ffcc;
+}
+
+.subt {
+  cursor: pointer;
+  color:black;
+  padding:5px 20px;
+  border-radius:5%;
+  border: 2px solid Blue;
+  outline: 0;
+  background-color: #8cff66;
+}

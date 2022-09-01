@@ -1,0 +1,151 @@
+.header {
+  padding: 10px;
+  background: rgb(5,6,31);
+}
+
+.logo {
+margin-left: auto;
+margin-right: auto;
+}
+
+ul.menu {
+background-color: rgb(5,6,31);
+list-style-type: none;
+overflow:hidden;
+}
+
+li.menu {
+float:left;
+}
+
+.header a:hover {
+	color: black;
+}
+
+button.srch {
+  padding:5px 20px;
+  border-radius:5%;
+  border: 2px solid Blue;
+  outline: 0;	
+  background-color: #66b3ff;	
+}
+
+button.srch:hover {
+  background-color: #6699ff;
+}
+
+.footer a {
+	color: #51cbf0;
+}
+
+li a {
+font-weight: bold;	
+font-size: 24px;
+display: block;
+padding: 12px 16px;
+text-align: center;
+color: white;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #51cbf0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column1 {
+  float: left;
+  width: 6%;
+  padding: 10px;
+}
+
+.column2 {
+  float: left;
+  width: 44%;
+  padding: 20px;
+}
+
+.column3 {
+  float: left;
+  width: 23%;
+  padding: 50px;
+}
+
+.column4 {
+  border-left: 2px solid white;
+  height: 55px;
+  float: left;
+  width: 1%;
+  padding-top: 75px;
+}
+
+a{
+	text-decoration:none;
+}
+
+.column5 {
+  float: left;
+  width: 5%;
+  padding-top: 20px;
+  padding-left: 68px;
+}
+
+hr {
+border-top: 1px solid DarkBlue;
+}
+
+.footer {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  background: rgb(5,6,31);
+}
+
+.column {
+  float: left;
+  width: 31%;
+  padding: 10px;
+}
+
+.colfot{
+  float: left;
+  width: 27.5%;
+  padding: 10px;
+}
+
+.colfot1{
+  float: left;
+  width: 10%;
+  padding: 10px;
+}
+
+.colfot2{
+  color: white;
+  float: left;
+  width: 5%;
+  padding: 10px;
+}
+
+.columnicon1 {
+  float: left;
+  width: 28%;
+  padding: 25px;
+}
+
+.columnicon2 {
+  float: right;
+  width: 28%;
+  padding: 25px;
+}
+
+.colicon{
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+

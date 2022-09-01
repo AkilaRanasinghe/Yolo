@@ -1,0 +1,105 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+    font-size:16px;
+    color: white;
+    font-weight: 300;
+}
+#login-box{
+    position: relative;
+    margin: 5% auto;
+    height: auto;
+    width: 600px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+	font-family: "Comic Sans MS";
+	background-image: url("../images/payment.jpg");
+}
+
+h1{
+    margin: 0 0 20px 0;
+    font-weight: 500;
+    font-size: 32px;
+    font-family: "Comic Sans MS";
+    font: bold;
+    text-shadow: 2px 4px #4e4d4f;
+    color: yellow;
+}
+input[type="text"] {
+    text-align: center;
+    font-family: "Comic Sans MS";
+    margin: 8px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 15px;
+    display: block;
+    transform: translate(0%, -20%);
+    box-sizing: border-box;
+    border: transparent;
+    box-shadow: 0 2px 2px  rgb(0, 0, 0);
+    padding: 12px 20px;
+    transition: 0.4s ease-in-out 0s;
+}
+input[type=text]:focus {
+    width: 75%;
+  } 
+  label[for="loc"],
+  label[for="ccnum"],
+  label[for="expyear"],
+  label[for="cvv"]{
+      font-family: "Comic Sans MS";
+      text-align: center;
+      font: bold;
+      font-size: 22px;
+      width: auto;
+}
+label[for="loc"]
+{
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    padding: 0% 250px;
+  }
+
+label[for="ccnum"]{
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    padding: 0% 196px;
+}
+label[for="expyear"]{
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    padding: 0% 245px;
+}
+label[for="cvv"]{
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    padding: 0% 267px;
+}
+
+select{
+    font-family: Comic Sans MS;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 15%;
+    height: 28px;
+} 
+input[type="submit"]
+{
+    width: 100%;
+    background: transparent;
+    color: white;
+    padding: 14px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family: "Comic Sans MS";
+	font-size: 20px;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+	width: 15%;
+    height: 35px;
+    background-color: #000000;
+    transition: 0.5s ease;
+}

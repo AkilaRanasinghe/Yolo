@@ -1,0 +1,35 @@
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.itemdet {	
+  border-radius:5%;
+  background-color:white;
+  float: left;
+  width: 80%;
+  padding: 25px 3px 25px 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 25px 50px 25px 125px;
+}
+
+.imgside {
+  float: left;
+  width: 30%;
+  padding: 25px 3px 25px 25px;
+}
+
+.dtlside {
+  border-radius:5%;
+  background-color:lightblue;
+  float: left;
+  width: 50%;
+  margin-top:25px;
+  padding: 125px 3px 30px 125px;
+}
+
+.imge {
+	height :100%;
+	width : 100%;
+}

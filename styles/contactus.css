@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.contact {
+	
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contactus {
+  padding: 0 16px;
+}
+
+.contactus::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: black;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.contact{
+	border-radius:5px;
+	background-image:url("../images/contactus.jpg");
+	background-size:cover:
+	padding:20px;
+}
+.col-1{
+	float:left;
+	width:5%;
+	margin-top:6px;
+}
+.col-2{
+	float:left;
+	width:50%;
+	margin-top:6px;
+}
+.row:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.put,textarea{
+ 	 width: 80%;
+ 	 padding: 12px 20px;
+ 	 margin: 8px 0;
+ 	 box-sizing:  
+	 border-radius: 12px;
+}
+label{
+	padding:12px 12px 12px 0;
+	display:inline-block;
+}
+input[type=submit]{
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 30px 550px;
+  cursor: pointer;
+  background-color: black;
+  
+}
+
+

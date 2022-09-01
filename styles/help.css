@@ -1,0 +1,54 @@
+/*---------------------- Create three unequal columns that floats next to each other--------------------- */
+.column {
+    float: left;
+    padding: 10px;
+  }
+/*---------------------------------- Middle column ---------------------------------------*/
+.column.middle {
+    width:50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  body
+  {
+      font-family: 'Roboto', sans-serif;
+      background: lightgrey;
+      box-sizing: border-box;
+  }
+section.sideMenu
+{
+    background: #302D43;
+    top: 0;
+    bottom:0;
+    width:400;
+    height: 700px;
+}
+nav
+{
+    padding-top:100px;
+}
+nav.side a
+{
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding:16px 31px;
+    font-weight: 300;
+    transition: all .2s ease-in-out;
+}
+nav.side a:hover
+{
+    background: rgb(54, 3, 54);
+    border-left: 5px solid rgb(3, 102, 3);
+    padding:16px 31px 16px 26px;
+}
+a.active
+{
+    background: rgb(43, 2, 43);
+    border-left: 5px solid rgb(3, 102, 3);
+    padding:16px 31px 16px 26px;
+}
+

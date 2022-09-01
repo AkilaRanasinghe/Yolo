@@ -1,0 +1,26 @@
+.coln {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-left:550px;
+  box-shadow: 2px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h3{
+  font-family: Arial;
+  color: aliceblue;
+}
+label[for=uname],
+label[for=psw],
+label[for=log]
+{
+  color: black;
+}
+input[type=text]{
+  color: black;
+}

@@ -1,0 +1,117 @@
+body{
+    position: relative;
+    margin: 5% auto;
+    height: 600px;
+    width: 900px;
+    background:white;
+    background-image: url(../images/pic.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 2px 4px rgb(10, 0, 84);
+}
+.dashboard {
+    background-color: beige;
+    position: relative;
+    margin: 5% auto;
+    height: 600px;
+    width: 900px;
+}
+
+.tab-list {
+    width: 20%;
+    height: 600px;
+    float: left;
+    background-color: rgb(3, 3, 3);
+    text-align: center;
+    color: aliceblue;
+}
+.tab-panel {
+    float: left;
+    height: 600px;
+    width: 720px;
+    background-color: rgb(4, 10, 19);
+}
+
+.tab-list button {
+    background-color: rgb(35, 68, 233);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.drpdown-content {
+    display: none;
+    background-size: cover;
+    background-color: rgb(37, 146, 219);
+    min-width: 160px;
+    overflow: auto;
+    text-align: center;
+}
+
+.drpdown-content a {
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+    font: bold;
+    display: block;
+    font-family: Arial;
+}
+.show {display: block;}
+.column {
+    text-align: center;
+    float: left;
+    width: 22%;
+    padding: 5px 5px 10px 20px;
+    z-index:+1
+}
+
+.columnsub1 {
+    position:absolute;
+    margin-top:-30%;
+    margin-left: 30%;
+    float: left;
+    width: 15%;
+    height:20%;
+    z-index:+1
+}
+
+.columnsub2 {
+    position:absolute;
+    margin-top:-30%;
+    margin-left: 65%;
+    float: left;
+    width: 15%;
+    height:20%; 
+    z-index:+1
+}
+
+.columnsub3 {
+    position:absolute;
+    margin-top:-15%;
+    margin-left: 30%;
+    float: left;
+    width: 15%;
+    height:20%;
+    z-index:+1
+}
+.row {margin: 0 -5px;}
+
+.row-text {
+    font-size: 50px;
+    margin-left: 15px;
+    font-variant: small-caps;
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

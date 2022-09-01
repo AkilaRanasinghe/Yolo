@@ -1,0 +1,67 @@
+
+dl.faq button {
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+  font-size: 110%;
+  border: thin solid transparent;
+  background-color: transparent;
+  padding-left: 0.125em;
+  color:black;
+  border-radius: 25px;
+  font-family: comic Sans MS;
+}
+
+dl dd {
+  margin: 0;
+  padding: 0;
+
+  margin-left: 1.5em;
+}
+
+dl.faq .desc {
+  margin: 0;
+  padding: 0.5em;
+  font-family: sans-serif;
+  font-size: 110%;
+  display: none;
+  background-color: white;
+  color: Blue;
+  border-radius: 25px;
+  font-family: comic Sans MS;
+}
+
+dl.faq button:hover,
+dl.faq button:focus {
+  background-color: Aqua;
+}
+
+dl.faq button:focus {
+  border-color: none;
+}
+
+dl.faq button:hover {
+ transform: scale(1.1);
+}
+
+dl.faq button:active {
+  background-color: #bbb;
+  border: none;
+}
+
+dl.faq button[aria-expanded="false"]::before {
+  content: url('../images/right-arrow-brown.png');
+  padding-right: 0.35em;
+}
+
+dl.faq button[aria-expanded="true"]::before {
+  content: url('../images/down-arrow-brown.png');
+  padding-right: 0.35em;
+}
+
+.desc {
+   color:whitesmoke;
+}
+h1{
+	font-family: comic Sans MS;
+}
