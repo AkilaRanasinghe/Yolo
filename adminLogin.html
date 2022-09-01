@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YOLO</title>
+	<link rel="stylesheet" type="text/css" href="styles/headfoot.css">
+	<link rel="stylesheet" type="text/css" href="styles/adminLogin.css">
+	<script src="js/adminLogin.js"></script>
+</head>
+<body background="images\back.jpg">
+<hr>
+</br>
+            <form acion="help.php" method="GET" onsubmit="return username()">
+            <h1>This page only for Adminis</h1>
+            <h2>Administration Log in</h2>
+        <div id="login-box">
+                <label for="uname"> Username</label> 
+                <input type="text" id="uname" placeholder="Username" required>
+                <label for="pwd"> Password</label>
+                <input type="password" id="pwd" placeholder="Password" required>
+                <select>
+                    <option value="select">Language</option>
+                    <option value="English">English</option>
+                    <option value="French">French</option>
+                </select>
+                <input type="submit" id="login"  value="Log in" disabled>
+                <h3>Go to <a href="home.html">Home Page</a></h3>
+        </div>
+    </body>
+</html>
+
